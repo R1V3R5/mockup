@@ -7,7 +7,7 @@ a {
 .banner {
   height: 330px;
   width: 1100px;
-  border: solid black 1px;
+  border: solid darkgrey 1px;
   overflow: hidden;
   position: relative;
   margin-bottom: 40px;
@@ -15,15 +15,31 @@ a {
 .banner img {
   width: 100%;
 }
+.container {
+  height: 700px;
+}
+.features {
+  clear: left;
+  width: 800px;
+  margin-left: 170px;
+  border: solid black 1px;
+}
+.features-content {
+  float: left;
+  width: 375px;
+  height: 190px;
+  border: solid black 1px;
+}
 .pricing {
   width: 255px;
   height: 475px;
-  border: solid black 1px;
+  border: solid darkgrey 1px;
   text-align:center;
   color: white;
   vertical-align: top;
   float: left;
   margin-left: 15px;
+  margin-bottom: 60px;
 }
 .heading {
   height: 175px;
@@ -47,10 +63,11 @@ a {
   margin-left: 135px;
 }
 .pricing li {
+  height: 35px;
   color: black;
   list-style: none;
   text-align: center;
-  background-color: lightgrey;
+  background-color: rgb(247, 247, 247);
   border-bottom: solid darkgrey 1px;
 }
 .pricing ul {
